@@ -374,10 +374,10 @@ def result ():
         else:
             loanapppaymentschedule=0
         if 'loanapppromocode' in screens:
-            loanapppromocodea = 1
+            loanapppromocode = 1
             strScreens.append('loanapppromocodea')
         else:
-            loanapppromocodea =0
+            loanapppromocode =0
         if 'loanappreasons' in screens:
             loanappreasons = 1
             strScreens.append('loanappreasons')
@@ -542,27 +542,261 @@ def result ():
             providerlist =1
             strScreens.append('providerlist')
         else:
-            providerlist = 0       
+            providerlist = 0
+        if 'referralcontainer' in screens:
+            referralcontainer = 1
+            strScreens.append('referralcontainer')
+        else:
+            referralcontainer =0
+        if 'referrals' in screens:
+            referrals =1
+            strScreens.append('referrals')
+        else:
+            referrals =0
+        if 'referralscreen' in screens:
+            referralscreen=1
+            strScreens.append('referralscreen')
+        else:
+            referralscreen=0
+        if 'resendtoken' in screens:
+            resendtoken = 1
+            strScreens.append('resendtoken')
+        else:
+            resendtoken = 0
+        if 'reviewcreditcard' in screens:
+            reviewcreditcard =1
+            strScreens.append('reviewcreditcard')
+        else:
+            reviewcreditcard =0
+        if 'rewarddetail' in screens:
+            rewarddetail = 1
+            strScreens.append('rewarddetail')
+        else:
+            rewarddetail = 0
+        if 'rewardjoinscreen' in screens:
+            rewardjoinscreen = 1
+            strScreens.append('rewardjoinscreen')
+        else:
+            rewardjoinscreen = 0
+        if 'rewards' in screens:
+            rewards = 1
+            strScreens.append('rewards')
+        else:
+            rewards = 0
+        if 'rewardscontainer' in screens:
+            rewardscontainer = 1
+            strScreens.append('rewardscontainer')
+        else:
+            rewardscontainer =0
+        if 'saving1' in screens:
+            saving1 = 1
+            strScreens.append('saving1')
+        else:
+            saving1 = 0
+        if 'saving10' in screens:
+            saving10 = 1
+            strScreens.append('saving10')
+        else:
+            saving10 = 0
+        if 'saving2' in screens:
+            saving2 = 1
+            strScreens.append('saving2')
+        else:
+            saving2 = 0
+        if 'saving2amount' in screens:
+            saving2amount = 1
+            strScreens.append('saving2amount')
+        else:
+            saving2amount=0
+        if 'saving4' in screens:
+            saving4 =1
+            strScreens.append('saving4')
+        else:
+            saving4 = 0
+        if 'saving5' in screens:
+            saving5 =1
+            strScreens.append('saving5')
+        else:
+            saving5=0
+        if 'saving6' in screens:
+            saving6 = 1
+            strScreens.append('saving6')
+        else:
+            saving6=0
+        if 'saving7' in screens:
+            saving7 =1
+            strScreens.append('saving7')
+        else:
+            saving7=0
+        if 'saving8' in screens:
+            saving8 =1
+            strScreens.append('saving8')
+        else:
+            saving8 = 0
+        if 'saving9' in screens:
+            saving9 = 1
+            strScreens.append('saving9')
+        else:
+            saving9=0
+        if 'savinggoaledit' in screens:
+            savinggoaledit = 1
+            strScreens.append('savinggoaledit')
+        else:
+            savinggoaledit = 0
+        if 'savinggoalincomesalary' in screens:
+            savinggoalincomesalary = 1
+            strScreens.append('savinggoalincomesalary')
+        else:
+            savinggoalincomesalary=0
+        if 'savinggoalother' in screens:
+            savinggoalother=1
+            strScreens.append('savinggoalother')
+        else:
+            savinggoalother=0
+        if 'savinggoalpreview' in screens:
+            savinggoalpreview = 1
+            strScreens.append('savinggoalpreview')
+        else:
+            savinggoalpreview=0
+        if 'scanpreview' in screens:
+            scanpreview =1
+            strScreens.append('scanpreview')
+        else:
+            scanpreview=0
+        if 'securitymodal' in screens:
+            securitymodal=1
+            strScreens.append('securitymodal')
+        else:
+            securitymodal=0
+        if 'selectinstitution' in screens:
+            selectinstitution =1
+            strScreens.append('selectinstitution')
+        else:
+            selectinstitution=0
+        if 'settings' in screens:
+            settings=1
+            strScreens.append('settings')
+        else:
+            settings=0
+        if 'signup' in screens:
+            signup =1
+            strScreens.append('signup')
+        else:
+            signup=0
+        if 'signupemail' in screens:
+            signupemail = 1
+            strScreens.append('signupemail')
+        else:
+            signupemail=0
+        if 'signupname' in screens:
+            signupname=1
+            strScreens.append('signupname')
+        else:
+            signupname=0
+        if 'splash' in screens:
+            splash=1
+            strScreens.append('splash')
+        else:
+            splash=0
+        if 'transactionlist' in screens:
+            transactionlist=1
+            strScreens.append('transactionlist')
+        else:
+            transactionlist=0
+        if 'verifyannualincome' in screens:
+            verifyannualincome =1
+            strScreens.append('verifyannualincome')
+        else:
+            verifyannualincome=0
+        if 'verifybankinfo' in screens:
+            verifybankinfo=1
+            strScreens.append('verifybankinfo')
+        else:
+            verifybankinfo=0
+        if 'verifycountry' in screens:
+            verifycountry=1
+            strScreens.append('verifycountry')
+        else:
+            verifycountry=0
+        if 'verifydateofbirth' in screens:
+            verifydateofbirth=1
+            strScreens.append('verifydateofbirth')
+        else:
+            verifydateofbirth=0
+        if 'verifyhousing' in screens:
+            verifyhousing=1
+            strScreens.append('verifyhousing')
+        else:
+            verifyhousing=0
+        if 'verifyhousingamount' in screens:
+            verifyhousingamount =1
+            strScreens.append('verifyhousingamount')
+        else:
+            verifyhousingamount=0
+        if 'verifyincometype' in screens:
+            verifyincometype=1
+            strScreens.append('verifyincometype')
+        else:
+            verifyincometype=0
+        if 'verifymobile' in screens:
+            verifymobile=1
+            strScreens.append('verifymobile')
+        else:
+            verifymobile=0
+        if 'verifyphone' in screens:
+            verifyphone=1
+            strScreens.append('verifyphone')
+        else:
+            verifyphone=0
+        if 'verifyssn' in screens:
+            verifyssn=1
+            strScreens.append('verifyssn')
+        else:
+            verifyssn=0
+        if 'verifytoken' in screens:
+            verifytoken=1
+            strScreens.append('verifytoken')
+        else:
+            verifytoken=0
+        if 'webview' in screens:
+            webview=1
+            strScreens.append('webview')
+        else:
+            webview=0
+        if 'welcomebankverification' in screens:
+            welcomebankverification=1
+            strScreens.append('welcomebankverification')
+        else:
+            welcomebankverification=0
+        if 'yournetwork' in screens:
+            yournetwork=1
+            strScreens.append('yournetwork')
+        else:
+            yournetwork=0
         
         
 
+        datainput = [[day,hour,age,nmsc,mg,feat,lk, about, accountview, addproperty, addvehicle, adverseactions, alerts, bankverification, 
+        boostfriendslist, bvplaidlinkcontainer, bvstats, camerascreen, cc1, cc1category, cc3, communityandinvites, contactinfoconfirm, 
+        credit1, credit2, credit3, credit3alerts, credit3container, credit3cta, credit3dashboard, credits, cycle, editprofile, 
+        employmentinfo, employmentsummary, finances, findfriendscycle, forgotpassword, groupedinstitutions, history, home, 
+        idandselfiecamerascreen, identityverification, idscreen, instantloanssn, instantoffercreateaccount, institutions, joinscreen, 
+        landingscreen, leaderboard, listpicker, llloanamount, loan, loan1, loan2, loan3, loan4, loanappagreement, loanappbankinfo, 
+        loanappconfirmwithdrawal, loanappdenied, loanappesign, loanapploan4, loanapppaymentschedule, loanapppromocode, 
+        loanappreasons, loanapprequestamount, loanappschedulecall, loanappsuccess, loanappverifybankinfo, loanappwithdrawn, location, login, 
+        loginform, managefinances, mlwebview, networkfailure, networkuser, newcontactlistinvite, payoff, product_review, product_review2, 
+        product_review3, product_review4, product_review5, profileannualincome, profilechildren, profilecompanyname, profileeducation, 
+        profileeducationmajor, profileemploymentlength, profilejobtitle, profilemaritalstatus, profilepage, profileproduct_review, 
+        profileverifyincometype, profileverifyssn, providerlist, referralcontainer, referrals, referralscreen, resendtoken, reviewcreditcard, 
+        rewarddetail, rewardjoinscreen, rewards, rewardscontainer, saving1, saving10, saving2, saving2amount, saving4, saving5, saving6, 
+        saving7, saving8, saving9, savinggoaledit, savinggoalincomesalary, savinggoalother, savinggoalpreview, scanpreview, securitymodal, 
+        selectinstitution, settings, signup, signupemail, signupname, splash, transactionlist, verifyannualincome, verifybankinfo, 
+        verifycountry, verifydateofbirth, verifyhousing, verifyhousingamount, verifyincometype, verifymobile, verifyphone, verifyssn, 
+        verifytoken, webview, welcomebankverification, yournetwork]]
 
 
-        
-
-
-        
-        
-        
-
-
-
-
-
-
-        datainput = [[day,hour,age,nmsc,mg,feat,lk]]
-        pred = coba.predict(datainput)[0]
-        proba = coba.predict_proba(datainput)[0]
+        pred = gradient.predict(datainput)[0]
+        proba = gradient.predict_proba(datainput)[0]
         if pred == 0:
             prbb = round((proba[0]*100), 1)
             rslt = "Not Subscribe"
@@ -575,9 +809,10 @@ def result ():
         # return render_template('result.html')
         return render_template(
             'result.html', dayofweek=strDay, hour=hour, age=age, numscreens=nmsc, minigame=strGame, used_premium_feat=strFeat, 
-            like=strLike,result= rslt, proba = prbb, color = color)
+            like=strLike, screens=strScreens, result= rslt, proba = prbb, color = color)
 
 
 if __name__ == '__main__':
     coba = joblib.load('model_cobain')
+    gradient = joblib.load('model_gradient')
     app.run(debug=True, port=4400)
